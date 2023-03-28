@@ -4,8 +4,7 @@
   float: left;
   width: 100%;
   position: relative;
-}
-  
+}  
 .navigation_bar ul{  
   list-style-type: none;
   margin: 0;
@@ -13,22 +12,19 @@
   position: relative;
   left: 50%;
   float: left;
-}
-  
+} 
 .navigation_bar ul li{ 
   float: left;
   position: relative;
   right: 50%;
   display: block;
 }
-
 .navigation_bar ul li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
-
 .navigation_bar ul li a:hover {
   background-color: #000;
 }
