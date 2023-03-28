@@ -32,3 +32,44 @@
 .navigation_bar ul li a:hover {
   background-color: #000;
 }
+
+.sidebar_nav {
+  float:left;
+  position: fixed;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+.sidebar_nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.sidebar_nav ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar_nav ul li a:hover {
+  background-color: blue;
+}
+
+aside {
+  position: fixed;
+  right:0%;
+  width: 20%;
+  background-color:red;
+  color:white;
+}
+
+aside {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+aside :hover {
+  background-color: blue;
+}
+
